@@ -72,3 +72,22 @@
     
 ##### Implementing Object Orientation
 
+    Procedural programs are based on functions. The data orbits around the functions. Object orientation revert
+    this point of view, placing a program's data at the center, with the function orbits the data. Instead of 
+    focusing on functions in your programs, you concentrate on the data.
+    
+Objective-C 很好的使用了消息机制，如果希望某对象采取某种动作，只需要 **sending a message** (although some folks also say "calling a method") 即可，
+具体的操作交由实现完成。
+
+Objective-C 对象有一个指向其 class 的指针，class 告诉了这个对象是什么，能做什么。
+
+###### 这里提到了这样一个问题
+
+    What's the point of having class object? Wouldn't it be simpler just have each object point directly to its code?
+    Indeed, it would be simpler, and some OOP systems do just that. 
+    But having class object is a great advantage: if you change class at runtime, all objects of that class automatically
+    pick up the changes 
+    
+JavaScript 采用对象继承的方式创建对象，也就是这所说的，直接指向对应的代码，在某些应用下确实还是比较方便的。
+
+    
