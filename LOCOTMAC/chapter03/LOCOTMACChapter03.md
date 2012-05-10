@@ -56,3 +56,17 @@
     it's telling us where to get the data we need.
 
 #### Using Indirection in Object-Oriented Programming
+
+##### Procedural Programming
+
+###### A HANDY SHORTCUT
+
+    The rectangles in the Shapes-Procedural program's main() method are declared using a handy little C trick:
+    when you declare a variable that's a structure, you can initialize all the elements of that structure at 
+    once.
+        ShapeRect rect0 = { 0, 0, 10, 30 };
+    The structure elements get value in the order they're declared. Recall that ShapeRect is declared like this:
+        typedef struct {
+            int x, y, width, height;
+        } ShapeRect;
+    
