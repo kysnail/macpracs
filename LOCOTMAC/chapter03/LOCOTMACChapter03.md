@@ -90,4 +90,13 @@ Objective-C 对象有一个指向其 class 的指针，class 告诉了这个对�
     
 JavaScript 采用对象继承的方式创建对象，也就是这所说的，直接指向对应的代码，在某些应用下确实还是比较方便的。
 
-    
+#### Time Out for Terminology
+
+  * class - Objective-C style encourges developers to capitalize class names.
+  * object - An object is a structure containing values and a hidden pointer to its class. Objective-C variables that refer
+           - to objects are typically not capitlized.
+  * instance - is another word for "
+  * message - is an action that an object can perform.
+            - This is what you send to an object to tell it to do something.
+            - In the [shape draw] code, the draw message is sent to the shape object to tell it to draw itself.
+            - 
