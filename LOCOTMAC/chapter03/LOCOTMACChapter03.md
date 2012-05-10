@@ -113,6 +113,57 @@ JavaScript 采用对象继承的方式创建对象，也就是这所说的，直
 
   * implementation - is the code that makes interface work.
 
+----
+
+#### OOP in Objective-C
+
+##### The @interface Section
+在大一点的项目中，我们会将每个类放置在各自的文件中。
+
+在 Objective-C 中牢记，只要以 **@** 开头的内容，都属于对 C 语言的扩展。
+
+
+##### GET YOUR INFIX HERE (p46)
+Objective-C 使用 **中缀法 infix notation** 进行语法标记，方法、参数的名称编结在一起显示。这么做的原因是，通常 C 语言中一个
+方法可能会有多个参数，在没有参看文档的情况下很难了解各项的含义，而中缀法需要你将参数以 **名值对** 的形式传递给方法，这样
+做可以让你更方便的 编程。
+
+##### CALLIN' ALL COLONS (p47)
+
+    The rule to follow is this:
+    If a method takes an argument, it has a colon.
+    If it takes no arguments, it has no colons.
+
+##### The @implementation Section
+学到了一个新词 **TLA** 。
+
+    The interface is often called the API, which is a TLA for "application programming interface" (
+    and TLA is a TLA for "three-letter acronym"). The actual code to make object work is found in the 
+    @implementation section.
+
+学习 JavaScript 时提到过这样一个问题，JavaScript 没有相应的作用域控制，而这里的 Objective-C 实际上也没有 public、
+private 一说。
+
+    You might think that define a method solely in the @implementation directive make it inaccessible from 
+    the outside the implementation, but that's not the case. Objective-C doesn't really have private methods.
+    There is no way to mark a method as being private and preventing other code from calling it.
+    This is side effect of Objective-C's dynamic nature.
+
+###### cut and past programming
+
+    One drawback to cut and past programming, like our Triangle class, is that it tends to careate a lot of 
+    duiplicated code, like the setBounds: and setFillColor: methods. We'll introduce you inheritance in the 
+    next chapter, which is a fine way to avoid redundant code like this.
+    
+###### Open/Closed Principle
+这里讲到了设计模式里的 **开闭原则** 。
+
+
+#### Summary
+
+
+  
+    
 
 
 
