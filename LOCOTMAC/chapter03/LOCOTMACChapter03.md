@@ -99,4 +99,40 @@ JavaScript 采用对象继承的方式创建对象，也就是这所说的，直
   * message - is an action that an object can perform.
             - This is what you send to an object to tell it to do something.
             - In the [shape draw] code, the draw message is sent to the shape object to tell it to draw itself.
-            - 
+            - When an object receives a message, its class is consulted to find the proper code to run.
+  * method - A method is code that runs in response to a message.
+  * method dispatcher - is a mechanism used by Objective-C to divine which method to be executed in response to a particular message.
+  * interface - is the description of the features provided by a class of objects.
+
+对于接口 interface 这个概念，不要仅局限于 OOP 中。
+
+    The concept of interfaces is not limited to OOP. For example, header files in C provide interfaces
+    for libraries such as the standard I/O library (which you get when you #include <stdio.h>), and the
+    math library (#include <math.h>). Interfaces do not provide implementation details, and the general
+    idea is that you shouldn't care about them.
+
+  * implementation - is the code that makes interface work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
