@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1840DC6D155E311A0001052E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840DC6C155E311A0001052E /* UIKit.framework */; };
+		1840DC6F155E311A0001052E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840DC6E155E311A0001052E /* Foundation.framework */; };
+		1840DC71155E311A0001052E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840DC70155E311A0001052E /* CoreGraphics.framework */; };
+		1840DC77155E311A0001052E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1840DC75155E311A0001052E /* InfoPlist.strings */; };
+		1840DC79155E311A0001052E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840DC78155E311A0001052E /* main.m */; };
+		1840DC7D155E311A0001052E /* KYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840DC7C155E311A0001052E /* KYSAppDelegate.m */; };
+		1840DC80155E311A0001052E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1840DC7E155E311A0001052E /* MainStoryboard.storyboard */; };
+		1840DC83155E311A0001052E /* KYSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840DC82155E311A0001052E /* KYSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1840DC68155E311A0001052E /* HelloWorkd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorkd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1840DC6C155E311A0001052E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1840DC6E155E311A0001052E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1840DC70155E311A0001052E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1840DC74155E311A0001052E /* HelloWorkd-Info.plist */ = {isa = PBXFileReference; path = "HelloWorkd-Info.plist"; sourceTree = "<group>"; };
+		1840DC76155E311A0001052E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1840DC78155E311A0001052E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1840DC7A155E311A0001052E /* HelloWorkd-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorkd-Prefix.pch"; sourceTree = "<group>"; };
+		1840DC7B155E311A0001052E /* KYSAppDelegate.h */ = {isa = PBXFileReference; path = KYSAppDelegate.h; sourceTree = "<group>"; };
+		1840DC7C155E311A0001052E /* KYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSAppDelegate.m; sourceTree = "<group>"; };
+		1840DC7F155E311A0001052E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1840DC81155E311A0001052E /* KYSViewController.h */ = {isa = PBXFileReference; path = KYSViewController.h; sourceTree = "<group>"; };
+		1840DC82155E311A0001052E /* KYSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1840DC65155E311A0001052E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840DC6D155E311A0001052E /* UIKit.framework in Frameworks */,
+				1840DC6F155E311A0001052E /* Foundation.framework in Frameworks */,
+				1840DC71155E311A0001052E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1840DC5D155E311A0001052E = {
+			isa = PBXGroup;
+			children = (
+				1840DC72155E311A0001052E /* HelloWorkd */,
+				1840DC6B155E311A0001052E /* Frameworks */,
+				1840DC69155E311A0001052E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1840DC69155E311A0001052E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1840DC68155E311A0001052E /* HelloWorkd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1840DC6B155E311A0001052E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1840DC6C155E311A0001052E /* UIKit.framework */,
+				1840DC6E155E311A0001052E /* Foundation.framework */,
+				1840DC70155E311A0001052E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1840DC72155E311A0001052E /* HelloWorkd */ = {
+			isa = PBXGroup;
+			children = (
+				1840DC7B155E311A0001052E /* KYSAppDelegate.h */,
+				1840DC7C155E311A0001052E /* KYSAppDelegate.m */,
+				1840DC7E155E311A0001052E /* MainStoryboard.storyboard */,
+				1840DC81155E311A0001052E /* KYSViewController.h */,
+				1840DC82155E311A0001052E /* KYSViewController.m */,
+				1840DC73155E311A0001052E /* Supporting Files */,
+			);
+			path = HelloWorkd;
+			sourceTree = "<group>";
+		};
+		1840DC73155E311A0001052E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1840DC74155E311A0001052E /* HelloWorkd-Info.plist */,
+				1840DC75155E311A0001052E /* InfoPlist.strings */,
+				1840DC78155E311A0001052E /* main.m */,
+				1840DC7A155E311A0001052E /* HelloWorkd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1840DC67155E311A0001052E /* HelloWorkd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1840DC86155E311A0001052E /* Build configuration list for PBXNativeTarget "HelloWorkd" */;
+			buildPhases = (
+				1840DC64155E311A0001052E /* Sources */,
+				1840DC65155E311A0001052E /* Frameworks */,
+				1840DC66155E311A0001052E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorkd;
+			productName = HelloWorkd;
+			productReference = 1840DC68155E311A0001052E /* HelloWorkd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1840DC5F155E311A0001052E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1840DC62155E311A0001052E /* Build configuration list for PBXProject "HelloWorkd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1840DC5D155E311A0001052E;
+			productRefGroup = 1840DC69155E311A0001052E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1840DC67155E311A0001052E /* HelloWorkd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1840DC66155E311A0001052E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840DC77155E311A0001052E /* InfoPlist.strings in Resources */,
+				1840DC80155E311A0001052E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1840DC64155E311A0001052E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840DC79155E311A0001052E /* main.m in Sources */,
+				1840DC7D155E311A0001052E /* KYSAppDelegate.m in Sources */,
+				1840DC83155E311A0001052E /* KYSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1840DC75155E311A0001052E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1840DC76155E311A0001052E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1840DC7E155E311A0001052E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1840DC7F155E311A0001052E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1840DC84155E311A0001052E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1840DC85155E311A0001052E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1840DC87155E311A0001052E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorkd/HelloWorkd-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorkd/HelloWorkd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1840DC88155E311A0001052E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorkd/HelloWorkd-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorkd/HelloWorkd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1840DC62155E311A0001052E /* Build configuration list for PBXProject "HelloWorkd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1840DC84155E311A0001052E /* Debug */,
+				1840DC85155E311A0001052E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1840DC86155E311A0001052E /* Build configuration list for PBXNativeTarget "HelloWorkd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1840DC87155E311A0001052E /* Debug */,
+				1840DC88155E311A0001052E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1840DC5F155E311A0001052E /* Project object */;
+}

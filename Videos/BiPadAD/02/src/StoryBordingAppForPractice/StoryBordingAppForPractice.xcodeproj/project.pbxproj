@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180AB2BB155E488E007EA19A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AB2BA155E488E007EA19A /* UIKit.framework */; };
+		180AB2BD155E488E007EA19A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AB2BC155E488E007EA19A /* Foundation.framework */; };
+		180AB2BF155E488E007EA19A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AB2BE155E488E007EA19A /* CoreGraphics.framework */; };
+		180AB2C5155E488E007EA19A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180AB2C3155E488E007EA19A /* InfoPlist.strings */; };
+		180AB2C7155E488E007EA19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AB2C6155E488E007EA19A /* main.m */; };
+		180AB2CB155E488E007EA19A /* KYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AB2CA155E488E007EA19A /* KYSAppDelegate.m */; };
+		180AB2CE155E488E007EA19A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180AB2CC155E488E007EA19A /* MainStoryboard.storyboard */; };
+		180AB2D1155E488E007EA19A /* KYSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AB2D0155E488E007EA19A /* KYSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180AB2B6155E488E007EA19A /* StoryBordingAppForPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBordingAppForPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AB2BA155E488E007EA19A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180AB2BC155E488E007EA19A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180AB2BE155E488E007EA19A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180AB2C2155E488E007EA19A /* StoryBordingAppForPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBordingAppForPractice-Info.plist"; sourceTree = "<group>"; };
+		180AB2C4155E488E007EA19A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180AB2C6155E488E007EA19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180AB2C8155E488E007EA19A /* StoryBordingAppForPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBordingAppForPractice-Prefix.pch"; sourceTree = "<group>"; };
+		180AB2C9155E488E007EA19A /* KYSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYSAppDelegate.h; sourceTree = "<group>"; };
+		180AB2CA155E488E007EA19A /* KYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSAppDelegate.m; sourceTree = "<group>"; };
+		180AB2CD155E488E007EA19A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		180AB2CF155E488E007EA19A /* KYSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYSViewController.h; sourceTree = "<group>"; };
+		180AB2D0155E488E007EA19A /* KYSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180AB2B3155E488E007EA19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AB2BB155E488E007EA19A /* UIKit.framework in Frameworks */,
+				180AB2BD155E488E007EA19A /* Foundation.framework in Frameworks */,
+				180AB2BF155E488E007EA19A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180AB2AB155E488D007EA19A = {
+			isa = PBXGroup;
+			children = (
+				180AB2C0155E488E007EA19A /* StoryBordingAppForPractice */,
+				180AB2B9155E488E007EA19A /* Frameworks */,
+				180AB2B7155E488E007EA19A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180AB2B7155E488E007EA19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180AB2B6155E488E007EA19A /* StoryBordingAppForPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180AB2B9155E488E007EA19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180AB2BA155E488E007EA19A /* UIKit.framework */,
+				180AB2BC155E488E007EA19A /* Foundation.framework */,
+				180AB2BE155E488E007EA19A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180AB2C0155E488E007EA19A /* StoryBordingAppForPractice */ = {
+			isa = PBXGroup;
+			children = (
+				180AB2C9155E488E007EA19A /* KYSAppDelegate.h */,
+				180AB2CA155E488E007EA19A /* KYSAppDelegate.m */,
+				180AB2CC155E488E007EA19A /* MainStoryboard.storyboard */,
+				180AB2CF155E488E007EA19A /* KYSViewController.h */,
+				180AB2D0155E488E007EA19A /* KYSViewController.m */,
+				180AB2C1155E488E007EA19A /* Supporting Files */,
+			);
+			path = StoryBordingAppForPractice;
+			sourceTree = "<group>";
+		};
+		180AB2C1155E488E007EA19A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180AB2C2155E488E007EA19A /* StoryBordingAppForPractice-Info.plist */,
+				180AB2C3155E488E007EA19A /* InfoPlist.strings */,
+				180AB2C6155E488E007EA19A /* main.m */,
+				180AB2C8155E488E007EA19A /* StoryBordingAppForPractice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180AB2B5155E488E007EA19A /* StoryBordingAppForPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180AB2D4155E488E007EA19A /* Build configuration list for PBXNativeTarget "StoryBordingAppForPractice" */;
+			buildPhases = (
+				180AB2B2155E488E007EA19A /* Sources */,
+				180AB2B3155E488E007EA19A /* Frameworks */,
+				180AB2B4155E488E007EA19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryBordingAppForPractice;
+			productName = StoryBordingAppForPractice;
+			productReference = 180AB2B6155E488E007EA19A /* StoryBordingAppForPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180AB2AD155E488D007EA19A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 180AB2B0155E488D007EA19A /* Build configuration list for PBXProject "StoryBordingAppForPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180AB2AB155E488D007EA19A;
+			productRefGroup = 180AB2B7155E488E007EA19A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180AB2B5155E488E007EA19A /* StoryBordingAppForPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180AB2B4155E488E007EA19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AB2C5155E488E007EA19A /* InfoPlist.strings in Resources */,
+				180AB2CE155E488E007EA19A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180AB2B2155E488E007EA19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AB2C7155E488E007EA19A /* main.m in Sources */,
+				180AB2CB155E488E007EA19A /* KYSAppDelegate.m in Sources */,
+				180AB2D1155E488E007EA19A /* KYSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180AB2C3155E488E007EA19A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AB2C4155E488E007EA19A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180AB2CC155E488E007EA19A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AB2CD155E488E007EA19A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180AB2D2155E488E007EA19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		180AB2D3155E488E007EA19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180AB2D5155E488E007EA19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryBordingAppForPractice/StoryBordingAppForPractice-Prefix.pch";
+				INFOPLIST_FILE = "StoryBordingAppForPractice/StoryBordingAppForPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180AB2D6155E488E007EA19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryBordingAppForPractice/StoryBordingAppForPractice-Prefix.pch";
+				INFOPLIST_FILE = "StoryBordingAppForPractice/StoryBordingAppForPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180AB2B0155E488D007EA19A /* Build configuration list for PBXProject "StoryBordingAppForPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AB2D2155E488E007EA19A /* Debug */,
+				180AB2D3155E488E007EA19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180AB2D4155E488E007EA19A /* Build configuration list for PBXNativeTarget "StoryBordingAppForPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AB2D5155E488E007EA19A /* Debug */,
+				180AB2D6155E488E007EA19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180AB2AD155E488D007EA19A /* Project object */;
+}
