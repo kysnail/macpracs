@@ -54,7 +54,10 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return YES;
+    // 当 home 键位于下方，或者 home 键位于左侧的时候，界面才会做出相应的响应动作。
+    // 当 home 键向右、向上时，界面控件的方向并不会发生改变。
+    return (interfaceOrientation == UIInterfaceOrientationPortrait ||
+            interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
 }
 
 @end
