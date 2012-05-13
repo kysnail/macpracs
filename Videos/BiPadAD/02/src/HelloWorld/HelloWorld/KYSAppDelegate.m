@@ -2,7 +2,7 @@
 //  KYSAppDelegate.m
 //  HelloWorld
 //
-//  Created by apple on 12-5-12.
+//  Created by apple on 12-5-13.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 

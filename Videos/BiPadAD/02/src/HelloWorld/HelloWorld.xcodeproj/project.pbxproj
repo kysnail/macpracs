@@ -7,93 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187BAB5B155E315D002B4402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BAB5A155E315D002B4402 /* UIKit.framework */; };
-		187BAB5D155E315D002B4402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BAB5C155E315D002B4402 /* Foundation.framework */; };
-		187BAB5F155E315D002B4402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BAB5E155E315D002B4402 /* CoreGraphics.framework */; };
-		187BAB65155E315D002B4402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187BAB63155E315D002B4402 /* InfoPlist.strings */; };
-		187BAB67155E315D002B4402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BAB66155E315D002B4402 /* main.m */; };
-		187BAB6B155E315D002B4402 /* KYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BAB6A155E315D002B4402 /* KYSAppDelegate.m */; };
-		187BAB6E155E315D002B4402 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BAB6C155E315D002B4402 /* MainStoryboard.storyboard */; };
-		187BAB71155E315D002B4402 /* KYSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BAB70155E315D002B4402 /* KYSViewController.m */; };
+		18D98D54155F4D79007E6983 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D98D53155F4D79007E6983 /* UIKit.framework */; };
+		18D98D56155F4D79007E6983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D98D55155F4D79007E6983 /* Foundation.framework */; };
+		18D98D58155F4D79007E6983 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D98D57155F4D79007E6983 /* CoreGraphics.framework */; };
+		18D98D5E155F4D79007E6983 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D98D5C155F4D79007E6983 /* InfoPlist.strings */; };
+		18D98D60155F4D79007E6983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D5F155F4D79007E6983 /* main.m */; };
+		18D98D64155F4D79007E6983 /* KYSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D63155F4D79007E6983 /* KYSAppDelegate.m */; };
+		18D98D67155F4D79007E6983 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D98D65155F4D79007E6983 /* MainStoryboard.storyboard */; };
+		18D98D6A155F4D79007E6983 /* KYSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D69155F4D79007E6983 /* KYSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		187BAB56155E315D002B4402 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		187BAB5A155E315D002B4402 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		187BAB5C155E315D002B4402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		187BAB5E155E315D002B4402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		187BAB62155E315D002B4402 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
-		187BAB64155E315D002B4402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		187BAB66155E315D002B4402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		187BAB68155E315D002B4402 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
-		187BAB69155E315D002B4402 /* KYSAppDelegate.h */ = {isa = PBXFileReference; path = KYSAppDelegate.h; sourceTree = "<group>"; };
-		187BAB6A155E315D002B4402 /* KYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSAppDelegate.m; sourceTree = "<group>"; };
-		187BAB6D155E315D002B4402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		187BAB6F155E315D002B4402 /* KYSViewController.h */ = {isa = PBXFileReference; path = KYSViewController.h; sourceTree = "<group>"; };
-		187BAB70155E315D002B4402 /* KYSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSViewController.m; sourceTree = "<group>"; };
+		18D98D4F155F4D79007E6983 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D98D53155F4D79007E6983 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D98D55155F4D79007E6983 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D98D57155F4D79007E6983 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D98D5B155F4D79007E6983 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		18D98D5D155F4D79007E6983 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D98D5F155F4D79007E6983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D98D61155F4D79007E6983 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		18D98D62155F4D79007E6983 /* KYSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYSAppDelegate.h; sourceTree = "<group>"; };
+		18D98D63155F4D79007E6983 /* KYSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSAppDelegate.m; sourceTree = "<group>"; };
+		18D98D66155F4D79007E6983 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18D98D68155F4D79007E6983 /* KYSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYSViewController.h; sourceTree = "<group>"; };
+		18D98D69155F4D79007E6983 /* KYSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		187BAB53155E315D002B4402 /* Frameworks */ = {
+		18D98D4C155F4D79007E6983 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187BAB5B155E315D002B4402 /* UIKit.framework in Frameworks */,
-				187BAB5D155E315D002B4402 /* Foundation.framework in Frameworks */,
-				187BAB5F155E315D002B4402 /* CoreGraphics.framework in Frameworks */,
+				18D98D54155F4D79007E6983 /* UIKit.framework in Frameworks */,
+				18D98D56155F4D79007E6983 /* Foundation.framework in Frameworks */,
+				18D98D58155F4D79007E6983 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		187BAB4B155E315D002B4402 = {
+		18D98D44155F4D79007E6983 = {
 			isa = PBXGroup;
 			children = (
-				187BAB60155E315D002B4402 /* HelloWorld */,
-				187BAB59155E315D002B4402 /* Frameworks */,
-				187BAB57155E315D002B4402 /* Products */,
+				18D98D59155F4D79007E6983 /* HelloWorld */,
+				18D98D52155F4D79007E6983 /* Frameworks */,
+				18D98D50155F4D79007E6983 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		187BAB57155E315D002B4402 /* Products */ = {
+		18D98D50155F4D79007E6983 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				187BAB56155E315D002B4402 /* HelloWorld.app */,
+				18D98D4F155F4D79007E6983 /* HelloWorld.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		187BAB59155E315D002B4402 /* Frameworks */ = {
+		18D98D52155F4D79007E6983 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				187BAB5A155E315D002B4402 /* UIKit.framework */,
-				187BAB5C155E315D002B4402 /* Foundation.framework */,
-				187BAB5E155E315D002B4402 /* CoreGraphics.framework */,
+				18D98D53155F4D79007E6983 /* UIKit.framework */,
+				18D98D55155F4D79007E6983 /* Foundation.framework */,
+				18D98D57155F4D79007E6983 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		187BAB60155E315D002B4402 /* HelloWorld */ = {
+		18D98D59155F4D79007E6983 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				187BAB69155E315D002B4402 /* KYSAppDelegate.h */,
-				187BAB6A155E315D002B4402 /* KYSAppDelegate.m */,
-				187BAB6C155E315D002B4402 /* MainStoryboard.storyboard */,
-				187BAB6F155E315D002B4402 /* KYSViewController.h */,
-				187BAB70155E315D002B4402 /* KYSViewController.m */,
-				187BAB61155E315D002B4402 /* Supporting Files */,
+				18D98D62155F4D79007E6983 /* KYSAppDelegate.h */,
+				18D98D63155F4D79007E6983 /* KYSAppDelegate.m */,
+				18D98D65155F4D79007E6983 /* MainStoryboard.storyboard */,
+				18D98D68155F4D79007E6983 /* KYSViewController.h */,
+				18D98D69155F4D79007E6983 /* KYSViewController.m */,
+				18D98D5A155F4D79007E6983 /* Supporting Files */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
 		};
-		187BAB61155E315D002B4402 /* Supporting Files */ = {
+		18D98D5A155F4D79007E6983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				187BAB62155E315D002B4402 /* HelloWorld-Info.plist */,
-				187BAB63155E315D002B4402 /* InfoPlist.strings */,
-				187BAB66155E315D002B4402 /* main.m */,
-				187BAB68155E315D002B4402 /* HelloWorld-Prefix.pch */,
+				18D98D5B155F4D79007E6983 /* HelloWorld-Info.plist */,
+				18D98D5C155F4D79007E6983 /* InfoPlist.strings */,
+				18D98D5F155F4D79007E6983 /* main.m */,
+				18D98D61155F4D79007E6983 /* HelloWorld-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,13 +101,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		187BAB55155E315D002B4402 /* HelloWorld */ = {
+		18D98D4E155F4D79007E6983 /* HelloWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 187BAB74155E315D002B4402 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 18D98D6D155F4D79007E6983 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
-				187BAB52155E315D002B4402 /* Sources */,
-				187BAB53155E315D002B4402 /* Frameworks */,
-				187BAB54155E315D002B4402 /* Resources */,
+				18D98D4B155F4D79007E6983 /* Sources */,
+				18D98D4C155F4D79007E6983 /* Frameworks */,
+				18D98D4D155F4D79007E6983 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,72 +115,72 @@
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
-			productReference = 187BAB56155E315D002B4402 /* HelloWorld.app */;
+			productReference = 18D98D4F155F4D79007E6983 /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		187BAB4D155E315D002B4402 /* Project object */ = {
+		18D98D46155F4D79007E6983 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 187BAB50155E315D002B4402 /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 18D98D49155F4D79007E6983 /* Build configuration list for PBXProject "HelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 187BAB4B155E315D002B4402;
-			productRefGroup = 187BAB57155E315D002B4402 /* Products */;
+			mainGroup = 18D98D44155F4D79007E6983;
+			productRefGroup = 18D98D50155F4D79007E6983 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				187BAB55155E315D002B4402 /* HelloWorld */,
+				18D98D4E155F4D79007E6983 /* HelloWorld */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		187BAB54155E315D002B4402 /* Resources */ = {
+		18D98D4D155F4D79007E6983 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187BAB65155E315D002B4402 /* InfoPlist.strings in Resources */,
-				187BAB6E155E315D002B4402 /* MainStoryboard.storyboard in Resources */,
+				18D98D5E155F4D79007E6983 /* InfoPlist.strings in Resources */,
+				18D98D67155F4D79007E6983 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		187BAB52155E315D002B4402 /* Sources */ = {
+		18D98D4B155F4D79007E6983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187BAB67155E315D002B4402 /* main.m in Sources */,
-				187BAB6B155E315D002B4402 /* KYSAppDelegate.m in Sources */,
-				187BAB71155E315D002B4402 /* KYSViewController.m in Sources */,
+				18D98D60155F4D79007E6983 /* main.m in Sources */,
+				18D98D64155F4D79007E6983 /* KYSAppDelegate.m in Sources */,
+				18D98D6A155F4D79007E6983 /* KYSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		187BAB63155E315D002B4402 /* InfoPlist.strings */ = {
+		18D98D5C155F4D79007E6983 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				187BAB64155E315D002B4402 /* en */,
+				18D98D5D155F4D79007E6983 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		187BAB6C155E315D002B4402 /* MainStoryboard.storyboard */ = {
+		18D98D65155F4D79007E6983 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				187BAB6D155E315D002B4402 /* en */,
+				18D98D66155F4D79007E6983 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		187BAB72155E315D002B4402 /* Debug */ = {
+		18D98D6B155F4D79007E6983 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		187BAB73155E315D002B4402 /* Release */ = {
+		18D98D6C155F4D79007E6983 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		187BAB75155E315D002B4402 /* Debug */ = {
+		18D98D6E155F4D79007E6983 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		187BAB76155E315D002B4402 /* Release */ = {
+		18D98D6F155F4D79007E6983 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -260,24 +260,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		187BAB50155E315D002B4402 /* Build configuration list for PBXProject "HelloWorld" */ = {
+		18D98D49155F4D79007E6983 /* Build configuration list for PBXProject "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				187BAB72155E315D002B4402 /* Debug */,
-				187BAB73155E315D002B4402 /* Release */,
+				18D98D6B155F4D79007E6983 /* Debug */,
+				18D98D6C155F4D79007E6983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		187BAB74155E315D002B4402 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		18D98D6D155F4D79007E6983 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				187BAB75155E315D002B4402 /* Debug */,
-				187BAB76155E315D002B4402 /* Release */,
+				18D98D6E155F4D79007E6983 /* Debug */,
+				18D98D6F155F4D79007E6983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 187BAB4D155E315D002B4402 /* Project object */;
+	rootObject = 18D98D46155F4D79007E6983 /* Project object */;
 }

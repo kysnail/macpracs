@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18032007155E287900A3466B"
+               BlueprintIdentifier = "18D98D4E155F4D79007E6983"
                BuildableName = "HelloWorld.app"
                BlueprintName = "HelloWorld"
                ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18032007155E287900A3466B"
+            BlueprintIdentifier = "18D98D4E155F4D79007E6983"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -49,7 +49,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18032007155E287900A3466B"
+            BlueprintIdentifier = "18D98D4E155F4D79007E6983"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
@@ -67,7 +67,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18032007155E287900A3466B"
+            BlueprintIdentifier = "18D98D4E155F4D79007E6983"
             BuildableName = "HelloWorld.app"
             BlueprintName = "HelloWorld"
             ReferencedContainer = "container:HelloWorld.xcodeproj">
